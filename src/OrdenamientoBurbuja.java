@@ -19,7 +19,7 @@ public class OrdenamientoBurbuja {
         for(int i = 0; i < length; i++){ //Recorre
             for(int j = 0; j < length -1 -i; j++){ // Compara tabla UNICODE
                 if(valores[j+1].compareTo(valores[j]) < 0){ // i < j
-                    String aux = valores[j];
+                    String aux = valores[j]; // j+1=5 - j=7    ---> 7 5 1 8 5 4
                     valores[j] = valores[j+1];
                     valores[j+1] = aux;
                 }
