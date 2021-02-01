@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class OrdenamientoBurbuja {
 
     private static void arregloInverso(String[] valores){
@@ -36,6 +39,17 @@ public class OrdenamientoBurbuja {
         ordenamientoBurbujarOptimizado(valores);
 
         Integer[] num = {8,5,2,3,6,1};
+
+        /*
+        String A = "aadd",B="aadd";
+        String[] valorA = new String[A.length()];
+        String[] valorB = new String[B.length()];
+        for(int i = 0; i < valorA.length; i++){
+            if(valorA[i] == valorB[i]){
+                System.out.println("Iguales");
+            }
+        }
+        */
 
         /*
             Comparacion en la tabla UNICODE:
